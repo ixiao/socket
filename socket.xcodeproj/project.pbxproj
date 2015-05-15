@@ -16,6 +16,7 @@
 		11ECB4FF1AF74F9D005C4A7D /* socketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ECB4FE1AF74F9D005C4A7D /* socketTests.m */; };
 		11ECB5131AF7508E005C4A7D /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ECB5101AF7508E005C4A7D /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		11ECB5141AF7508E005C4A7D /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 11ECB5121AF7508E005C4A7D /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		11FCCAF21B05D2C400415C59 /* Socket.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FCCAF01B05D2C400415C59 /* Socket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		11ECB5101AF7508E005C4A7D /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
 		11ECB5111AF7508E005C4A7D /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
 		11ECB5121AF7508E005C4A7D /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		11FCCAF01B05D2C400415C59 /* Socket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Socket.m; sourceTree = "<group>"; };
+		11FCCAF11B05D2C400415C59 /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Socket.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				11ECB4E71AF74F9D005C4A7D /* AppDelegate.m */,
 				11ECB4E91AF74F9D005C4A7D /* ViewController.h */,
 				11ECB4EA1AF74F9D005C4A7D /* ViewController.m */,
+				11FCCAF11B05D2C400415C59 /* Socket.h */,
+				11FCCAF01B05D2C400415C59 /* Socket.m */,
 				11ECB4EC1AF74F9D005C4A7D /* Main.storyboard */,
 				11ECB4EF1AF74F9D005C4A7D /* Images.xcassets */,
 				11ECB4F11AF74F9D005C4A7D /* LaunchScreen.xib */,
@@ -239,6 +244,7 @@
 			files = (
 				11ECB4EB1AF74F9D005C4A7D /* ViewController.m in Sources */,
 				11ECB5141AF7508E005C4A7D /* AsyncUdpSocket.m in Sources */,
+				11FCCAF21B05D2C400415C59 /* Socket.m in Sources */,
 				11ECB4E81AF74F9D005C4A7D /* AppDelegate.m in Sources */,
 				11ECB4E51AF74F9D005C4A7D /* main.m in Sources */,
 				11ECB5131AF7508E005C4A7D /* AsyncSocket.m in Sources */,
